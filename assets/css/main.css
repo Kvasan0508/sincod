@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #42C2FF;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #1A132F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #EFFFFD;
+  color: 85F4FF;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #42C2FF;
+  color: rgb(3, 33, 51);
+  font-family: Audiowide;
+  font-size: 18px;
+  
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
